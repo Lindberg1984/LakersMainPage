@@ -40,7 +40,7 @@ ul li {
 
 ul li a{
 	text-decoration: none;
-	color: gold;
+	color: #ffd711;
 	display: block;
 	padding: 2px;
 }
@@ -63,7 +63,8 @@ ul li:hover ul li {
 /* Main body, picture and headline settings begin here! */
 
 .poster {
-	padding: 100px;
+	height: 860px;
+	width: 100%;
 }
 
 h1 {
