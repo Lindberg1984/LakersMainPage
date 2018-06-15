@@ -5,7 +5,7 @@
 body {
   margin: 0;
   padding: 0;
-  color: yellow;
+  color: #fdb825;
   overflow-x: hidden;
   text-align: center;
 }
@@ -35,8 +35,8 @@ ul {
 }
 
 ul li {
-  background-color: #6d1af2;
-  border: 2px solid #ffd711;
+  background-color: #252223;
+  border: 2px solid #fdb825;
   border-radius: 6px;
   float: left;
   font-weight: 700;
@@ -45,12 +45,13 @@ ul li {
   line-height: 30px;
   margin-right: 12px;
   opacity: 0.8;
+  text-shadow: 3px 3px 3px #000;
   width: 140px;
 }
 
 ul li a {
   text-decoration: none;
-  color: #ffd711;
+  color: #fdb825;
   display: block;
   padding: 2px;
 }
@@ -73,8 +74,8 @@ ul li:hover ul li {
 /* Main body, picture and headline settings begin here! */
 
 .poster {
-  border-bottom: 1px solid #ffd711;
-  border-top: 1px solid #ffd711;
+  border-bottom: 1px solid #fdb825;
+  border-top: 1px solid #fdb825;
   height: 860px;
   width: 100%;
 }
@@ -82,10 +83,10 @@ ul li:hover ul li {
 h1 {
   font-size: 16px;
   margin: 0 auto;
-  text-shadow: 3px 3px 3px #c26ff2;
+  text-shadow: 3px 3px 3px #000;
 }
 
 h2 {
   font-size: 16px;
-  text-shadow: 3px 3px 3px #c26ff2;
+  text-shadow: 3px 3px 3px #000;
 }
