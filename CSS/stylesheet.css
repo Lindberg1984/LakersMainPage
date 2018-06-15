@@ -1,84 +1,85 @@
 * {
-	background-color: #000;
-	font-family: helvetica;
+  background-color: #000;
+  font-family: helvetica;
 }
 
 body {
-	margin: 0;
-	padding: 0;
-	color: yellow;
-	overflow-x: hidden;
-	text-align: center;
+  margin: 0;
+  padding: 0;
+  color: yellow;
+  overflow-x: hidden;
+  text-align: center;
 }
 
 /* Logo settings begin here! */
 
 .logo {
-	height: 160px;
-	margin: 0;
+  height: 160px;
+  margin: 0;
 }
 
 /* Navbar settings begin here! */
 
 ul {
-	display: inline-block;
-	margin: 0 auto;
-	position: relative;
-	list-style-type: none;
+  display: inline-block;
+  list-style-type: none;
+  margin: 0 auto;
+  position: relative;
 }
 
 ul li {
-	border: 2px solid #6d22f7;
-	float: left;
-	font-size: 18px;
-	height: 80px;
-	line-height: 30px;
-	margin-right: 12px;
-	opacity: .8;
-	width: 140px;
+  border: 2px solid #6d22f7;
+  float: left;
+  font-size: 18px;
+  height: 80px;
+  line-height: 30px;
+  margin-right: 12px;
+  opacity: 0.8;
+  width: 140px;
 }
 
-ul li a{
-	text-decoration: none;
-	color: #ffd711;
-	display: block;
-	padding: 2px;
+ul li a {
+  text-decoration: none;
+  color: #ffd711;
+  display: block;
+  padding: 2px;
 }
 
-
-ul li a:hover{
-	background-color: orangered;
-	border-radius: 6px;
+ul li a:hover {
+  background-color: orangered;
+  border-radius: 6px;
 }
 
 ul li ul li {
-	display: none;
-	position: relative;
-	right: 22%;
+  display: none;
+  position: relative;
+  right: 22%;
 }
 ul li:hover ul li {
-	display: block;
+  display: block;
 }
 
 /* Main body, picture and headline settings begin here! */
 
 .poster {
-	border: 1px solid #ffd711;
-	height: 860px;
-	width: 100%;
+  border-bottom: 1px solid #ffd711;
+  border-top: 1px solid #ffd711;
+  height: 860px;
+  width: 100%;
 }
 
 h1 {
-	margin: 0 auto;
-	text-shadow: 3px 3px 3px #c26ff2;
+  font-size: 16px;
+  margin: 0 auto;
+  text-shadow: 3px 3px 3px #c26ff2;
 }
 
 h2 {
-	font-size: 18px;
-	text-shadow: 3px 3px 3px #c26ff2;
+  font-size: 16px;
+  text-shadow: 3px 3px 3px #c26ff2;
 }
 
 h3 {
-	font-size: 25px;
-	text-shadow: 3px 3px 3px #c26ff2;
+  font-size: 16px;
+  text-shadow: 3px 3px 3px #c26ff2;
 }
