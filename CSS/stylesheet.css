@@ -24,6 +24,19 @@ body {
   margin: 0;
 }
 
+/* Headline settings begin here! */
+
+.welcome-title {
+  font-size: 16px;
+  margin: 0 auto;
+  text-shadow: 3px 3px 3px #000;
+}
+
+.welcome-text {
+  font-size: 16px;
+  text-shadow: 3px 3px 3px #000;
+}
+
 /* Navbar settings begin here! */
 
 ul {
@@ -71,22 +84,11 @@ ul li:hover ul li {
   display: block;
 }
 
-/* Main body, picture and headline settings begin here! */
+/* Main body and picture settings begin here! */
 
 .poster {
   border-bottom: 1px solid #fdb825;
   border-top: 1px solid #fdb825;
   height: 860px;
   width: 100%;
-}
-
-h1 {
-  font-size: 16px;
-  margin: 0 auto;
-  text-shadow: 3px 3px 3px #000;
-}
-
-h2 {
-  font-size: 16px;
-  text-shadow: 3px 3px 3px #000;
 }
