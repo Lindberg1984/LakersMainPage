@@ -63,7 +63,8 @@ ul li a:hover {
 ul li ul li {
   display: none;
   position: relative;
-  right: 10px;
+  right: 12px;
+  top: 36px;
 }
 ul li:hover ul li {
   display: block;
