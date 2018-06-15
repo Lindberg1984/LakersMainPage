@@ -52,8 +52,8 @@ ul li {
   border: 2px solid #fdb825;
   border-radius: 6px;
   float: left;
+  font-size: 16px;
   font-weight: 700;
-  font-size: 18px;
   height: 80px;
   line-height: 30px;
   margin-right: 12px;
@@ -69,9 +69,13 @@ ul li a {
   padding: 2px;
 }
 
-ul li a:hover {
-  background-color: orangered;
+ul li:hover {
+  background-color: #530f74;
   border-radius: 6px;
+}
+
+ul li a:hover {
+  transform: scale(1.1);
 }
 
 ul li ul li {
