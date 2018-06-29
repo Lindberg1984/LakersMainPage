@@ -78,13 +78,13 @@ ul li a:hover {
   transform: scale(1.1);
 }
 
-ul li ul li {
+.navbar-sub li {
   display: none;
   position: relative;
   right: 12px;
   top: 36px;
 }
-ul li:hover ul li {
+.navbar li:hover ul li {
   display: block;
 }
 
@@ -98,4 +98,10 @@ ul li:hover ul li {
   border-top: 1px solid #fdb825;
   height: 860px;
   width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+	ul {
+		width: 100%;
+	}
 }
