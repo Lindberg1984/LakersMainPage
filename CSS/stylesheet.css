@@ -94,8 +94,6 @@ ul li a:hover {
   background-image: url(../images/jerseys.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  border-bottom: 1px solid #fdb825;
-  border-top: 1px solid #fdb825;
   height: 860px;
   width: 100%;
 }
